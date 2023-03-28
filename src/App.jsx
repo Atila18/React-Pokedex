@@ -1,3 +1,4 @@
+import "./App.css";
 import PokemonCard from "./componants/PokemonCard";
 
 function App() {
