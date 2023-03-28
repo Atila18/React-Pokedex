@@ -10,7 +10,7 @@ const pokemonList = [
 ];
 
 function PokemonCard() {
-  const pokemon = pokemonList[1];
+  const pokemon = pokemonList[0];
   return (
     <figure>
       {pokemon.imgSrc ? <img src={pokemon.imgSrc} alt="" /> : <p>???</p>}
