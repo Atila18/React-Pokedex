@@ -43,3 +43,22 @@ button {
 .read-the-docs {
   color: #888;
 }
+.plante {
+  background-color: rgb(144, 238, 144);
+  border-radius: 25px;
+}
+figcaption {
+  color: #383636;
+  font-size: x-large;
+}
+figure img {
+  width: 350px;
+}
+.feu {
+  background-color: lightsalmon;
+  border-radius: 25px;
+}
+.eau {
+  background-color: lightblue;
+  border-radius: 25px;
+}
