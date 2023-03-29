@@ -44,8 +44,12 @@ button {
   color: #888;
 }
 .plante {
-  background-color: rgb(144, 238, 144);
+  background-image: linear-gradient(135deg, #92ed6d 30%, #b368ed 70%);
+  /*background-color: rgb(144, 238, 144);*/
   border-radius: 25px;
+}
+figure p {
+  color: #383636;
 }
 figcaption {
   color: #383636;
@@ -53,6 +57,10 @@ figcaption {
 }
 figure img {
   width: 350px;
+}
+.feu-vol {
+  background-image: linear-gradient(135deg, #ec9335 30%, #90f8ff 70%);
+  border-radius: 25px;
 }
 .feu {
   background-color: lightsalmon;
@@ -64,5 +72,21 @@ figure img {
 }
 .insecte {
   background-color: #9ee949;
+  border-radius: 25px;
+}
+.insecte-vol {
+  background-image: linear-gradient(135deg, #9ee949 30%, #90f8ff 70%);
+  border-radius: 25px;
+}
+.insecte-poison {
+  background-image: linear-gradient(135deg, #9ee949 10%, #b368ed 90%);
+  border-radius: 25px;
+}
+.electrique {
+  background-color: rgb(255, 255, 66);
+  border-radius: 25px;
+}
+.psy {
+  background-color: lightpink;
   border-radius: 25px;
 }
