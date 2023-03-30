@@ -5,19 +5,19 @@ import NavBar from "./componants/NavBar";
 
 const pokemonList = [
   {
-    color: "plante",
+    color: "plante-poison",
     name: "Bulbizarre",
     imgSrc:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
   },
   {
-    color: "plante",
+    color: "plante-poison",
     name: "Herbizarre",
     imgSrc:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
   },
   {
-    color: "plante",
+    color: "plante-poison",
     name: "Florizarre",
     imgSrc:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
@@ -66,7 +66,7 @@ const pokemonList = [
   },
   {
     color: "insecte",
-    name: "Crysacier",
+    name: "Chrysacier",
     imgSrc:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
   },

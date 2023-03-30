@@ -43,7 +43,7 @@ button {
 .read-the-docs {
   color: #888;
 }
-.plante {
+.plante-poison {
   background-image: linear-gradient(135deg, #92ed6d 30%, #b368ed 70%);
   /*background-color: rgb(144, 238, 144);*/
   border-radius: 25px;
@@ -63,7 +63,7 @@ figure img {
   border-radius: 25px;
 }
 .feu {
-  background-color: lightsalmon;
+  background-color: #ec9335;
   border-radius: 25px;
 }
 .eau {
