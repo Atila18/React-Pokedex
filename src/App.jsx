@@ -95,6 +95,12 @@ const pokemonList = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
   },
   {
+    color: "inconnu",
+    name: "???",
+    imgSrc:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+  },
+  {
     color: "electrique",
     name: "Pikachu",
     imgSrc:
