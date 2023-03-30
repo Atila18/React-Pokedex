@@ -5,7 +5,7 @@
   text-align: center;
 }
 button {
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .logo {
@@ -49,29 +49,29 @@ button {
   border-radius: 25px;
 }
 figure p {
-  color: #383636;
+  color: black;
 }
 figcaption {
-  color: #383636;
+  color: black;
   font-size: x-large;
 }
 figure img {
-  width: 350px;
+  width: 250px;
 }
 .feu-vol {
   background-image: linear-gradient(135deg, #ec9335 30%, #90f8ff 70%);
   border-radius: 25px;
 }
 .feu {
-  background-color: #ec9335;
+  background-image: linear-gradient(135deg, #ffab52 30%, #df6400 70%);
   border-radius: 25px;
 }
 .eau {
-  background-color: lightblue;
+  background-image: linear-gradient(135deg, #add8e6 30%, #0066de 70%);
   border-radius: 25px;
 }
 .insecte {
-  background-color: #9ee949;
+  background-image: linear-gradient(135deg, #9ee949 30%, #258100 70%);
   border-radius: 25px;
 }
 .insecte-vol {
@@ -79,15 +79,15 @@ figure img {
   border-radius: 25px;
 }
 .insecte-poison {
-  background-image: linear-gradient(135deg, #9ee949 10%, #b368ed 90%);
+  background-image: linear-gradient(135deg, #9ee949 30%, #b368ed 70%);
   border-radius: 25px;
 }
 .electrique {
-  background-color: rgb(255, 255, 66);
+  background-image: linear-gradient(135deg, #ffff62 30%, #f0d800 70%);
   border-radius: 25px;
 }
 .psy {
-  background-color: lightpink;
+  background-image: linear-gradient(135deg, #ffb6c1 30%, #ff26a2 70%);
   border-radius: 25px;
 }
 .inconnu {

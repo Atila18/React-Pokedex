@@ -1,14 +1,28 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
 
-function NavBar({ pokemonList, handleClick }) {
+function NavBar({ currentPokemonIndex, setCurrentPokemonIndex, pokemonList }) {
+  const handleClickPrev = () => {
+    if (currentPokemonIndex > 0) {
+      setCurrentPokemonIndex(currentPokemonIndex - 1);
+    }
+  };
+  const handleClickNext = () => {
+    if (currentPokemonIndex < pokemonList.length - 1) {
+      setCurrentPokemonIndex(currentPokemonIndex + 1);
+    }
+  };
   return (
     <>
-      {pokemonList.map((pokemon, index) => (
-        <button key={pokemon.name} onClick={() => handleClick(index)}>
-          {pokemon.name}
-        </button>
-      ))}
+      <button onClick={handleClickPrev} disabled={currentPokemonIndex === 0}>
+        Précédent
+      </button>
+      <button
+        onClick={handleClickNext}
+        disabled={currentPokemonIndex === pokemonList.length - 1}
+      >
+        Suivant
+      </button>
     </>
   );
 }
