@@ -1,7 +1,7 @@
 import "./App.css";
 import PokemonCard from "./componants/PokemonCard";
 import { useState } from "react";
-import NavBar from "./componants/NavBar";
+//import NavBar from "./componants/NavBar";
 import pokemonList from "./pokemonList";
 
 function App() {

@@ -94,3 +94,107 @@ figure img {
   background-image: url(./istockphoto-1199029984-1024x1024.jpg);
   border-radius: 25px;
 }
+.dragon-vol {
+  background-image: linear-gradient(135deg, #90f8ff 30%, #08107e 70%);
+  border-radius: 25px;
+}
+.dragon {
+  background-image: linear-gradient(135deg, #326bff 30%, #08107e 70%);
+  border-radius: 25px;
+}
+.electrique-vol {
+  background-image: linear-gradient(135deg, #f0d800 30%, #90f8ff 70%);
+  border-radius: 25px;
+}
+.glace-vol {
+  background-image: linear-gradient(135deg, #3be2ff 30%, #90f8ff 70%);
+  border-radius: 25px;
+}
+.normal {
+  background-image: linear-gradient(135deg, #c4c4c4 30%, #545454 70%);
+  border-radius: 25px;
+}
+.roche-vol {
+  background-image: linear-gradient(135deg, #a07054 30%, #90f8ff 70%);
+  border-radius: 25px;
+}
+.roche-eau {
+  background-image: linear-gradient(135deg, #a07054 30%, #add8e6 70%);
+  border-radius: 25px;
+}
+.eau-glace {
+  background-image: linear-gradient(135deg, #3be2ff 30%, #add8e6 70%);
+  border-radius: 25px;
+}
+.eau-vol {
+  background-image: linear-gradient(135deg, #90f8ff 30%, #add8e6 70%);
+  border-radius: 25px;
+}
+.eau-psy {
+  background-image: linear-gradient(135deg, #add8e6 30%, #ffb6c1 70%);
+  border-radius: 25px;
+}
+.psy-fee {
+  background-image: linear-gradient(135deg, #ffb6c1 30%, #ff3957 70%);
+  border-radius: 25px;
+}
+.plante {
+  background-image: linear-gradient(135deg, #92ed6d 30%, #1a4b12 70%);
+  border-radius: 25px;
+}
+.sol-roche {
+  background-image: linear-gradient(135deg, #a07054 30%, #2c1605 70%);
+  border-radius: 25px;
+}
+.poison {
+  background-image: linear-gradient(135deg, #b368ed 30%, #4d0d8c 70%);
+  border-radius: 25px;
+}
+.combat {
+  background-image: linear-gradient(135deg, #ff792b 30%, #ff9900 70%);
+  border-radius: 25px;
+}
+.sol {
+  background-image: linear-gradient(135deg, #814619 30%, #2c1605 70%);
+  border-radius: 25px;
+}
+.plante-psy {
+  background-image: linear-gradient(135deg, #ffb6c1 30%, #1a4b12 70%);
+  border-radius: 25px;
+}
+.spectre-poison {
+  background-image: linear-gradient(135deg, #b368ed 30%, #16052b 70%);
+  border-radius: 25px;
+}
+.normal-vol {
+  background-image: linear-gradient(135deg, #c4c4c4 30%, #90f8ff 70%);
+  border-radius: 25px;
+}
+.electrique-acier {
+  background-image: linear-gradient(135deg, #f0d800 30%, #6372a0 70%);
+  border-radius: 25px;
+}
+.eau-poison {
+  background-image: linear-gradient(135deg, #add8e6 30%, #b368ed 70%);
+  border-radius: 25px;
+}
+.eau-combat {
+  background-image: linear-gradient(135deg, #add8e6 30%, #ff9900 70%);
+  border-radius: 25px;
+}
+.poison-sol {
+  background-image: linear-gradient(135deg, #814619 30%, #b368ed 70%);
+  border-radius: 25px;
+}
+.fee {
+  background-image: linear-gradient(135deg, #ffb6c1 30%, #ff48c2 70%);
+  border-radius: 25px;
+}
+.poison-vol {
+  background-image: linear-gradient(135deg, #90f8ff 30%, #b368ed 70%);
+  border-radius: 25px;
+}
+.insecte-plante {
+  background-image: linear-gradient(135deg, #9ee949 30%, #1a4b12 70%);
+  border-radius: 25px;
+}
