@@ -109,14 +109,13 @@ const pokemonList = [
 function App() {
   const [currentPokemonIndex, setCurrentPokemonIndex] = useState(0);
   const currentPokemon = pokemonList[currentPokemonIndex];
+  const handleClick = (index) => {
+    setCurrentPokemonIndex(index);
+  };
   return (
     <div className="App">
       <PokemonCard pokemon={currentPokemon} />
-      <NavBar
-        currentPokemonIndex={currentPokemonIndex}
-        setCurrentPokemonIndex={setCurrentPokemonIndex}
-        pokemonList={pokemonList}
-      />
+      <NavBar pokemonList={pokemonList} handleClick={handleClick} />
     </div>
   );
 }
