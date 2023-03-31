@@ -43,6 +43,29 @@ button {
 .read-the-docs {
   color: #888;
 }
+.tableau {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+table {
+  width: 500px;
+}
+.tableau thead {
+  display: flex;
+  flex-direction: column;
+}
+tr {
+  display: flex;
+  justify-content: space-between;
+  border: white solid 2px;
+  width: 100%;
+}
+.tableau thead tr td {
+  display: flex;
+  width: 50%;
+  border-left: 2px solid white;
+}
 .plante-poison {
   background-image: linear-gradient(135deg, #92ed6d 30%, #b368ed 70%);
   /*background-color: rgb(144, 238, 144);*/
